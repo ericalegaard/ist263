@@ -1,0 +1,18 @@
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #EAEAEA;}
+
+p {color: #39471f;}
+
+a:link {color: #a76036;}
+a:visited {color: #a76036;}
+
+h1, h2, h3 {color: #5d772e;}
+
+nav {background-color: #0D2541;}
+
+nav a {color: #EAEAEA;}
+nav a:visited {color: #EAEAEA;}
+nav a:hover {background-color: #2A5269;}
+nav {color: #EAEAEA;
+     padding: 10px;
+     margin-bottom: 30px;}
