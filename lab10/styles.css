@@ -24,6 +24,23 @@ nav {color: #EAEAEA;
 
 
 
+
+
+/* BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING */
+
+.bannerimage {max-width: 100%;}
+
+.form_map {flex-wrap: wrap;}
+
+table, th, td {border: 1px solid black;}
+h1 {display:flex;
+    justify-content: center;}
+img {width: 50%;}
+
+
+
+
+
 /* CONTACT PAGE STYLING - CONTACT PAGE STYLING - CONTACT PAGE STYLING - CONTACT PAGE STYLING - CONTACT PAGE STYLING */
 
 .contactinfo .address {float: left;
@@ -45,29 +62,27 @@ nav {color: #EAEAEA;
 
 
 
-/* BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING */
 
-.bannerimage {max-width: 100%;}
+/* SKILLS PAGE STYLING - SKILLS PAGE STYLING - SKILLS PAGE STYLING - SKILLS PAGE STYLING - SKILLS PAGE STYLING */
 
-.form_map {flex-wrap: wrap;}
+h1 {padding: 15px;
+    margin: 15px;}
 
-table, th, td {border: 1px solid black;}
-h1 {display:flex;
-    justify-content: center;}
-img {width: 50%;}
 .skillstable {display: flex;
               flex-basis: 75%;
               padding: 20px;
               margin: 20px;}
+
 .otherskills {display: flex;
               flex-basis: 25%;
               background-color: lightgrey;
               border-radius: 1em;
               padding: 20px;
-              margin: 20px;}
+              margin: 20px;
+              flex-wrap: wrap;}
+
 .pagelayoutflexbox {display: flex;}
-h1 {padding: 15px;
-    margin: 15px;}
+
 
 
 
