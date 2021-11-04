@@ -25,7 +25,7 @@ nav {color: #EAEAEA;
                        margin-left: 50px;}
 .contactinfo .email_linkedin {float: right;
                               margin-left: 20px;
-                              margin-right: 800px;}
+                              /*margin-right: 800px;*/}
 .clear {clear: both;}
 
 .form_map {display: flex;}
@@ -36,5 +36,17 @@ nav {color: #EAEAEA;
                          border-radius: 1em;
                          margin: 20px;
                          padding: 20px;}
+
+.bannerimage {max-width: 100%;}
+
+.form_map {flex-wrap: wrap;}
+
+@media only screen and (max-width: 900px) { nav a {size: 100%;
+                                                   display: block;
+                                                   padding: 5px;} }
+                                                   
+@media only screen and (max-width: 900px) { nav span {display: none;} }
+
+@media only screen and (max-width: 900px) { .contactinfo .email_linkedin {margin-right: 0px;} }
 
 
