@@ -1,0 +1,58 @@
+/* GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING */
+
+body {font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #dbd3d8;}
+
+p {color: #223843;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    background-color: #d77a61;}
+header h1, header a, header span {color: #eff1f3;}
+header nav {
+    border: 2px solid #eff1f3;
+    border-radius: 25px;
+    padding: 15px;
+    margin-right: 25px;
+    justify-content: space-between;}
+
+footer {
+    display: flex;
+    background-color: #d8b4a0;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+.footer_titlecopyright {
+    text-align: center;}
+.footer_navigation1 {
+    text-align: right;}
+
+
+
+/* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
+
+.weeklytrioheader, .meetthefounderheader {
+    margin-left: 75px;
+    padding-top: 25px;}
+
+.weeklytriosection, .meetthefoundersection {
+    display: flex;
+    border: 2px solid #eff1f3;
+    border-radius: 25px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: #eff1f3;}
+
+.trio_breakfast, .trio_lunch, .trio_dinner {
+    text-align: center;}
+
+
+    
