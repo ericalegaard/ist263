@@ -1,58 +1,168 @@
-/* GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING */
+/* GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING */
+/* GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING */
 
-body {font-family:Georgia, 'Times New Roman', Times, serif;
+body {
+    font-family: 'Quicksand', sans-serif;
     background-color: #dbd3d8;}
-
 p {color: #223843;}
+
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 275%;
+    margin-left: 50px;
+    color: #eff1f3;}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 250%;}
+footer h2 {font-family: 'Grand Hotel', cursive;}
+h3 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 200%;
+    color: #d77a61;}
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
-    background-color: #d77a61;}
-header h1, header a, header span {color: #eff1f3;}
-header nav {
+    background-color: #223843;}
+header h1 {flex: 1;}
+header .navbox {flex: 1;}
+.navbox, .navbox a{
+    color: #eff1f3;
+    font-weight: bold;}
+.navbox {
+    display: flex;
     border: 2px solid #eff1f3;
     border-radius: 25px;
     padding: 15px;
     margin-right: 25px;
+    display: flex;
     justify-content: space-between;}
+.navbox nav {
+    display: flex;
+    justify-content: space-around;
+    flex: 4;
+    margin-right: 75px;}
+.navbox .nav_account {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    justify-content: space-between;}
+
+.MOBILEnavbox {
+    display: flex;
+    border: 2px solid #eff1f3;
+    border-radius: 25px;
+    padding: 15px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-evenly;}
+.MOBILEnavbox, .MOBILEnavbox a{
+    color: #eff1f3;
+    font-weight: bold;
+    font-size: 100%;}
 
 footer {
     display: flex;
     background-color: #d8b4a0;
     margin-top: 20px;
     justify-content: space-evenly;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;}
 .footer_titlecopyright {
-    text-align: center;}
+    text-align: center;
+    flex: 2;}
+.footer_titlecopyright h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;}
+.footer_titlecopyright p {margin-top: 5px;}
+.footer_contactus {
+    flex: 2;
+    border: 2px solid #223843;
+    padding: 15px;}
+.footer_contactus h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;}
+.footer_contactus p {
+    margin-top: 0px;
+    margin-bottom: 5px;}
 .footer_navigation1 {
-    text-align: right;}
+    text-align: right;
+    margin-right: 25px;
+    flex: 1;}
+.footer_navigation2 {
+    border-left: solid #223843 2px;
+    padding-left: 25px;
+    flex: 1;}
+footer h2, footer h3 {color: #223843;}
+
+
+@media only screen and (max-width: 600px) { .navbox                 {display: none;}}
+@media only screen and (min-width: 600px) { .MOBILEnavbox           {display: none;}}
+@media only screen and (max-width: 600px) { header h1               {font-size: 200%;   margin-left: 0px;   margin-right: 15px;}}
+@media only screen and (max-width: 600px) { .navbox .nav_account    {display: none;}}
+@media only screen and (max-width: 600px) { .navbox nav             {display: flex;     font-size: 50%;     justify-content: space-evenly;}}
+@media only screen and (max-width: 600px) { footer                  {display: flex;     flex-wrap: wrap;    padding-left: 75px;    padding-right: 75px;}}
+@media only screen and (max-width: 600px) { .footer_titlecopyright  {margin-right: 15px;}}
+@media only screen and (max-width: 600px) { .footer_contactus       {padding: 15px;    border: 2px solid #223843;}}
 
 
 
-/* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
+
+/* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
+/* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
 
 .weeklytrioheader, .meetthefounderheader {
-    margin-left: 75px;
-    padding-top: 25px;}
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;}
 
-.weeklytriosection, .meetthefoundersection {
-    display: flex;
-    border: 2px solid #eff1f3;
+.trio_breakfast, .trio_lunch, .trio_dinner {
+    border: 5px solid #d77a61;
     border-radius: 25px;
     padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #eff1f3;}
+
+.trio_breakfast h3, .trio_lunch h3, .trio_dinner h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+.weeklytriosection {
+    display: flex;
+    justify-content: center;}
+
+.meetthefounderheader {margin-top: 75px;}
+
+.meetthefoundersection {
+    display: flex;
+    border: 7px solid #223843;
+    border-radius: 25px;
+    padding: 40px;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     margin-left: 75px;
     margin-right: 75px;
-    background-color: #eff1f3;}
+    margin-bottom: 50px;
+    background-color: #eff1f3;
+    font-size: 115%;}
+
+.meetthefoundersection img {
+    border-radius: 25px;
+    margin-left: 30px;}
 
 .trio_breakfast, .trio_lunch, .trio_dinner {
     text-align: center;}
 
-
-    
+@media only screen and (max-width: 600px) { .weeklytriosection              {flex-wrap: wrap;}   }
+@media only screen and (max-width: 600px) { .trio_breakfast, .trio_lunch    {margin-bottom: 25px;}}
+@media only screen and (max-width: 600px) { .meetthefoundersection          {flex-wrap: wrap;}   }
+@media only screen and (max-width: 600px) { .meetthefoundersection img      {width: 100%;}   }
