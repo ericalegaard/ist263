@@ -137,7 +137,8 @@ footer h2, footer h3 {color: #223843;}
 
 .weeklytriosection {
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+    flex-wrap: wrap;}
 
 .meetthefounderheader {margin-top: 75px;}
 
@@ -162,7 +163,7 @@ footer h2, footer h3 {color: #223843;}
 .trio_breakfast, .trio_lunch, .trio_dinner {
     text-align: center;}
 
-@media only screen and (max-width: 600px) { .weeklytriosection              {flex-wrap: wrap;}   }
-@media only screen and (max-width: 600px) { .trio_breakfast, .trio_lunch    {margin-bottom: 25px;}}
-@media only screen and (max-width: 600px) { .meetthefoundersection          {flex-wrap: wrap;}   }
-@media only screen and (max-width: 600px) { .meetthefoundersection img      {width: 100%;}   }
+@media only screen and (max-width: 600px) { .weeklytriosection              {flex-wrap: wrap;}      }
+@media only screen and (max-width: 600px) { .trio_breakfast, .trio_lunch    {margin-bottom: 25px;}  }
+@media only screen and (max-width: 600px) { .meetthefoundersection          {flex-wrap: wrap;}      }
+@media only screen and (max-width: 600px) { .meetthefoundersection img      {width: 100%;}          }
