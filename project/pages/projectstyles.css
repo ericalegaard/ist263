@@ -404,38 +404,42 @@ footer h2, footer h3 {color: #eff1f3;;}
 
 
 @media only screen and (max-width: 600px) { .tidbitsheader              {   float: none;
-                                                                            text-align: center;
+                                                                            text-align: end;
                                                                             margin: 0px;
                                                                             margin-top: 10px;
                                                                             margin-bottom: 10px;
+                                                                            margin-right: 15px;
                                                                             display: block;}}
-@media only screen and (max-width: 600px) { .articles                   {   margin-top: 25px;
+@media only screen and (max-width: 600px) { .articles                   {   margin-top: 15px;
                                                                             margin-left: 15px;
                                                                             margin-right: 15px;
                                                                             padding: 0px;
                                                                             flex-wrap: none;
                                                                             width: 75%;
                                                                             padding-left: 15px;
-                                                                            padding-right: 15px;}}
+                                                                            padding-right: 15px;
+                                                                            justify-content: center;}}
 
 @media only screen and (max-width: 600px) { .articles h2                {   margin-top: -40px;}}
 @media only screen and (max-width: 600px) { .videos                     {   float: none;
                                                                             clear: both;
                                                                             margin: 0px;
-                                                                            margin-top: 500px;
-                                                                            margin-right: 0px;
-                                                                            width: 68%;}}
-@media only screen and (max-width: 600px) { .articles img               {   width: 265px;
+                                                                            margin-top: 1675px;
+                                                                            margin-left: 15px;
+                                                                            margin-right: 15px;
+                                                                            width: 75%;}}
+@media only screen and (max-width: 600px) { .articles img               {   width: 300px;
                                                                             margin-bottom: 15px;}}
-@media only screen and (max-width: 600px) { .videos iframe              {   width: 265px; height: auto;}}
+@media only screen and (max-width: 600px) { .videos iframe              {   width: 300px; height: auto;}}
 @media only screen and (max-width: 600px) { .articles h3, .articles p   {   padding-left: 10px;
                                                                             padding-right: 10px;}}                                                                  
 @media only screen and (max-width: 600px) { .videos h3                  {   margin-top: 15px;}}
 @media only screen and (max-width: 600px) { .videos p                   {   margin-bottom: 0px;}}
 @media only screen and (max-width: 600px) { .article1, .article2, .article3, .article4                   
                                                                         {   margin-top: 0px;
-                                                                            width: 265px;
+                                                                            width: 300px;
                                                                             justify-content: center;}}
+@media only screen and (max-width: 600px) { .video1, .video2, .video3   {   width: 300px;}}                                                                            
 @media only screen and (max-width: 600px) { .article1, .article2, .article3, .article4 
                                                                         {   display: block;
                                                                             justify-content: center;}}
