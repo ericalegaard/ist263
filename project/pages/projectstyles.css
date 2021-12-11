@@ -323,7 +323,8 @@ footer h2, footer h3 {color: #eff1f3;;}
 @media only screen and (max-width: 600px) { .recipebox_breakfast_row2, .recipebox_lunchdinner_row2 
                                                                         {   margin-top: 0px;}}
 @media only screen and (max-width: 600px) { .breakfast_row1_1, .breakfast_row1_2, .breakfast_row1_3, .breakfast_row1_4, .breakfast_row2_1, .breakfast_row2_2, .breakfast_row2_3, .lunchdinner_row1_1, .lunchdinner_row1_2, .lunchdinner_row1_3, .lunchdinner_row1_4, .lunchdinner_row2_1, .lunchdinner_row2_2, .lunchdinner_row2_3 
-                                                                        {   margin-left: -30px;
+                                                                        {   margin-left: 0px;
+                                                                            margin-right: 0px;
                                                                             justify-content: center;
                                                                             margin-top: 5px;
                                                                             display: block;}}
