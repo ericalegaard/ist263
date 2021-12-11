@@ -391,9 +391,10 @@ footer h2, footer h3 {color: #eff1f3;;}
     margin: 0px;}
 
 .article1, .article2, .article3, .article4 {
-    height: 222px;
+    height: 223px;
     padding-top: 15px;
-    padding-right: 15px;}
+    padding-right: 15px;
+    padding-left: 15px;}
 
 .article1, .article2, .article3, .article4, .video1, .video2, .video3 {
     clear: both;
@@ -406,8 +407,7 @@ footer h2, footer h3 {color: #eff1f3;;}
 .article1 img, .article2 img, .article3 img, .article4 img {
     float: left;
     margin-right: 15px;
-    margin-bottom: 50px;
-    padding-left: 15px;}
+    margin-bottom: 50px;}
 
 .video1 h3, .video1 p, .video2 h3, .video2 p, .video3 h3, .video3 p {
     padding-left: 15px;}
@@ -421,9 +421,8 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                             margin-right: 15px;
                                                                             display: block;}}
 @media only screen and (max-width: 600px) { .articles                   {   margin-top: 15px;
-                                                                            margin-left: 15px;
+                                                                            margin-left: 5px;
                                                                             margin-right: 15px;
-                                                                            margin-bottom: 35px;
                                                                             padding: 0px;
                                                                             flex-wrap: none;
                                                                             width: 75%;
@@ -439,8 +438,9 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                             margin-left: 15px;
                                                                             margin-right: 15px;
                                                                             width: 75%;}}
-@media only screen and (max-width: 600px) { .articles img               {   width: 300px;
-                                                                            margin-bottom: 15px;}}
+@media only screen and (max-width: 600px) { .articles img               {   width: 285px;
+                                                                            margin-bottom: 15px;
+                                                                            justify-content: center;}}
 @media only screen and (max-width: 600px) { .videos iframe              {   width: 300px; height: auto;}}
 @media only screen and (max-width: 600px) { .articles h3, .articles p   {   padding-left: 10px;
                                                                             padding-right: 10px;}}                                                                  
@@ -448,7 +448,12 @@ footer h2, footer h3 {color: #eff1f3;;}
 @media only screen and (max-width: 600px) { .videos p                   {   margin-bottom: 0px;}}
 @media only screen and (max-width: 600px) { .article1, .article2, .article3, .article4                   
                                                                         {   margin-top: 0px;
-                                                                            width: 300px;
+                                                                            width: 275px;
+                                                                            height: 325px;
+                                                                            padding-left: 5px;
+                                                                            padding-right: 5px;
+                                                                            margin-left: 5px;
+                                                                            margin-right: 5px;
                                                                             justify-content: center;}}
 @media only screen and (max-width: 600px) { .video1, .video2, .video3   {   width: 300px;}}                                                                            
 @media only screen and (max-width: 600px) { .article1, .article2, .article3, .article4 
