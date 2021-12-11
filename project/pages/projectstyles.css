@@ -311,17 +311,17 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                             margin-right: 15px;
                                                                             display: block;}}
 @media only screen and (max-width: 600px) { .recipebox_mealtabs         {   margin-top: 60px;
-                                                                            margin-left: 15px;
-                                                                            margin-right: 15px;
+                                                                            margin-left: 5px;
+                                                                            margin-right: 5px;
                                                                             padding: 0px;
                                                                             flex-wrap: none;
                                                                             size: 50%;
                                                                             margin: 0px;}}
-@media only screen and (max-width: 600px) { .recipebox_mealtabs .tab    {   margin-left: 15px;
-                                                                            margin-right: 15px;
+@media only screen and (max-width: 600px) { .recipebox_mealtabs .tab    {   margin-left: 5px;
+                                                                            margin-right: 5px;
                                                                             width: 100%;}}
 @media only screen and (max-width: 600px) { .recipebox_mealtabs label   {   font-size: 125%;
-                                                                            margin-left: 15px;}}
+                                                                            margin-left: 5px;}}
 @media only screen and (max-width: 600px) { .recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 
                                                                         {   flex-wrap: wrap; 
                                                                             margin-left: 5px; 
@@ -446,6 +446,7 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                             padding-right: 10px;}}                                                                  
 @media only screen and (max-width: 600px) { .videos h3                  {   margin-top: 15px;}}
 @media only screen and (max-width: 600px) { .videos p                   {   margin-bottom: 0px;}}
+@media only screen and (max-width: 600px) { .article1                   {   margin-top: 25px;}}
 @media only screen and (max-width: 600px) { .article1, .article2, .article3, .article4                   
                                                                         {   margin-top: 0px;
                                                                             width: 275px;
