@@ -1,0 +1,100 @@
+/* GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING - GENERAL PAGE STYLING */
+
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #EAEAEA;}
+
+p {color: #39471f;}
+
+p a:link {color: #0D2541;}
+p a:visited {color: #0D2541;}
+
+h1, h2, h3 {color: #5d772e;}
+
+nav {background-color: #0D2541;}
+
+nav a {color: #EAEAEA;}
+nav a:visited {color: #EAEAEA;}
+nav a:hover {background-color: #2A5269;}
+nav {color: #EAEAEA;
+     padding: 10px;
+     margin-bottom: 30px;}
+
+.copyright {float:left;}
+.motto {float: right;}
+
+
+
+
+
+/* BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING - BIO/INDEX PAGE STYLING */
+
+.bannerimage {max-width: 100%;}
+
+.form_map {flex-wrap: wrap;}
+
+table, th, td {border: 1px solid black;}
+h1 {display:flex;
+    justify-content: center;}
+img {width: 50%;}
+
+
+
+
+
+/* CONTACT PAGE STYLING - CONTACT PAGE STYLING - CONTACT PAGE STYLING - CONTACT PAGE STYLING - CONTACT PAGE STYLING */
+
+.contactinfo .address {float: left;
+                       margin-right: 20px;
+                       margin-left: 50px;}
+.contactinfo .email_linkedin {float: right;
+                              margin-left: 20px;}
+.clear {clear: both;}
+
+.form_map {display: flex;}
+.form_map .form {order: 1; margin-left: 50px; margin-right: 100px;}
+.form_map .map {order: 2; float: right;}
+
+.contactinfo, .form_map {background-color: #ffffff; 
+                         border-radius: 1em;
+                         margin: 20px;
+                         padding: 20px;}
+
+
+
+
+
+/* SKILLS PAGE STYLING - SKILLS PAGE STYLING - SKILLS PAGE STYLING - SKILLS PAGE STYLING - SKILLS PAGE STYLING */
+
+h1 {padding: 15px;
+    margin: 15px;}
+
+.skillstable {display: flex;
+              flex-basis: 75%;
+              padding: 20px;
+              margin: 20px;}
+
+.otherskills {display: flex;
+              flex-basis: 25%;
+              background-color: lightgrey;
+              border-radius: 1em;
+              padding: 20px;
+              margin: 20px;
+              flex-wrap: wrap;}
+
+.pagelayoutflexbox {display: flex;}
+
+
+
+
+
+/* TABLET/MOBILE STYLING - TABLET/MOBILE STYLING - TABLET/MOBILE STYLING - TABLET/MOBILE STYLING - TABLET/MOBILE STYLING */
+
+@media only screen and (max-width: 900px) { nav a {size: 100%;
+                                                   display: block;
+                                                   padding: 5px;} }
+
+@media only screen and (max-width: 900px) { nav span {display: none;} }
+
+@media only screen and (max-width: 900px) { .contactinfo .email_linkedin {margin-right: 0px;} }
+
+

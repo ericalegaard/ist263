@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #dbd3d8;}
+    background-color: #dad7cd;}
 p {color: #223843;}
 
 
@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 25px;
-    background-color: #223843;}
+    background-color: #344e41;}
 header h1 {flex: 1;}
 header .navbox {flex: 1;}
 .navbox, .navbox a{
@@ -67,38 +67,47 @@ header .navbox {flex: 1;}
 
 footer {
     display: flex;
-    background-color: #d8b4a0;
+    background-color: #344e41;
     margin-top: 20px;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;}
+    padding-bottom: 20px;
+    clear: both;}
 .footer_titlecopyright {
     text-align: center;
+    color: #eff1f3;
     flex: 2;}
 .footer_titlecopyright h2 {
+    color: #eff1f3;
     margin-top: 0px;
     margin-bottom: 0px;}
-.footer_titlecopyright p {margin-top: 5px;}
+.footer_titlecopyright p {
+    margin-top: 5px;
+    color: #eff1f3;}
 .footer_contactus {
     flex: 2;
-    border: 2px solid #223843;
+    border: 2px solid #eff1f3;;
     padding: 15px;}
 .footer_contactus h3 {
+    color: #eff1f3;
     margin-top: 0px;
     margin-bottom: 0px;}
 .footer_contactus p {
+    color: #eff1f3;
     margin-top: 0px;
     margin-bottom: 5px;}
 .footer_navigation1 {
+    color: #eff1f3;
     text-align: right;
     margin-right: 25px;
     flex: 1;}
 .footer_navigation2 {
-    border-left: solid #223843 2px;
+    border-left: 2px solid #eff1f3;
     padding-left: 25px;
     flex: 1;}
-footer h2, footer h3 {color: #223843;}
+.footer_navigation2 p {color: #eff1f3;}
+footer h2, footer h3 {color: #eff1f3;;}
 
 
 @media only screen and (max-width: 600px) { .navbox                 {display: none;}}
@@ -116,19 +125,40 @@ footer h2, footer h3 {color: #223843;}
 /* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
 /* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
 
-.weeklytrioheader, .meetthefounderheader {
-    text-align: center;
+/*.weeklytrioheader, .meetthefounderheader {
     text-decoration: underline;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;}*/
+
+.weeklytrioheader {
+    font-family: 'Grand Hotel', cursive;
+    color: #223843;
+    background-color: #dad7cd;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 300%;
+    position: absolute;
+    margin-top: -35px;}
+
+.meetthefounderheader {
+    font-family: 'Grand Hotel', cursive;
+    color: #588157;
+    background-color: #dad7cd;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 300%;
+    position: absolute;
+    margin-top: -570px;}
 
 .trio_breakfast, .trio_lunch, .trio_dinner {
-    border: 5px solid #d77a61;
+    border: 5px solid #aab6a5;
     border-radius: 25px;
     padding: 20px;
     align-items: center;
     text-align: center;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     background-color: #eff1f3;}
 
 .trio_breakfast h3, .trio_lunch h3, .trio_dinner h3 {
@@ -138,13 +168,20 @@ footer h2, footer h3 {color: #223843;}
 .weeklytriosection {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    position: relative;
+    border: 7px solid #223843;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 75px;}
 
-.meetthefounderheader {margin-top: 75px;}
+/*.meetthefounderheader {margin-top: 75px;}*/
 
 .meetthefoundersection {
     display: flex;
-    border: 7px solid #223843;
+    border: 7px solid #588157;
     border-radius: 25px;
     padding: 40px;
     justify-content: space-evenly;
@@ -153,8 +190,9 @@ footer h2, footer h3 {color: #223843;}
     margin-left: 75px;
     margin-right: 75px;
     margin-bottom: 50px;
-    background-color: #eff1f3;
-    font-size: 115%;}
+    background-color: #dad7cd;
+    font-size: 115%;
+    position: relative;}
 
 .meetthefoundersection img {
     border-radius: 25px;
@@ -167,3 +205,138 @@ footer h2, footer h3 {color: #223843;}
 @media only screen and (max-width: 600px) { .trio_breakfast, .trio_lunch    {margin-bottom: 25px;}  }
 @media only screen and (max-width: 600px) { .meetthefoundersection          {flex-wrap: wrap;}      }
 @media only screen and (max-width: 600px) { .meetthefoundersection img      {width: 100%;}          }
+
+
+
+
+/* RECIPEBOX PAGE STYLING - RECIPEBOX PAGE STYLING - RECIPEBOX PAGE STYLING - RECIPEBOX PAGE STYLING */
+/* RECIPEBOX PAGE STYLING - RECIPEBOX PAGE STYLING - RECIPEBOX PAGE STYLING - RECIPEBOX PAGE STYLING */
+
+.recipeboxheader {
+    float: right;
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 0px;}
+
+.recipebox_mealtabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;}
+.recipebox_mealtabs input[type="radio"] {
+    display: none;}
+.recipebox_mealtabs label {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #cad2c5;
+    border-radius: 0px 15px 0px 0px;}
+.recipebox_mealtabs .tab {
+    width: 175%;
+    padding: 15px;
+    background-color: #84a98c;
+    border-radius: 0px 15px 15px 15px;
+    margin-bottom: 25px;
+    order: 1;
+    display: none;}
+.recipebox_mealtabs input[type='radio']:checked + label + .tab {
+    display: block;}
+.recipebox_mealtabs input[type='radio']:checked + label {
+    background-color: #84a98c;
+    color: #223843}
+.recipebox_mealtabs label {
+    font-family: 'Grand Hotel', cursive;
+    color: #223843;
+    font-size: 200%;}
+
+.recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+.breakfast_row1_1, .breakfast_row1_2, .breakfast_row1_3, .breakfast_row1_4, .breakfast_row2_1, .breakfast_row2_2, .breakfast_row2_3, .lunchdinner_row1_1, .lunchdinner_row1_2, .lunchdinner_row1_3, .lunchdinner_row1_4, .lunchdinner_row2_1, .lunchdinner_row2_2, .lunchdinner_row2_3 {
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    background-color: #cad2c5;
+    flex-basis: 1;
+    margin-left: 10px;
+    margin-right: 10px;}
+
+.recipebox_mealtabs h3 {
+    margin: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;}
+
+
+
+
+/* TID BITS PAGE STYLING - TID BITS PAGE STYLING - TID BITS PAGE STYLING - TID BITS PAGE STYLING */
+/* TID BITS PAGE STYLING - TID BITS PAGE STYLING - TID BITS PAGE STYLING - TID BITS PAGE STYLING */
+
+.tidbitsheader {
+    float: right;
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 0px;}
+
+.articles h2, .videos h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #223843;
+    font-size: 300%;
+    position: absolute;
+    background-color: #dad7cd;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -65px;
+    margin-left: 30px;}
+
+.articles h3, .videos h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+    margin-bottom: 0px;
+    padding-top: 5px;}
+
+.articles {
+    position: relative;
+    border: 7px solid #223843;
+    border-radius: 15px;
+    float: left;
+    padding: 15px;
+    padding-top: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 50%;}
+.videos {
+    position: relative;
+    border: 7px solid #223843;
+    border-radius: 15px;
+    float: right;
+    padding: 15px;
+    padding-top: 25px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 25px;}
+.articles p {
+    margin: 0px;}
+
+.article1, .article2, .article3, .article4, .video1, .video2, .video3 {
+    clear: both;
+    align-items: center;
+    background-color: #aab6a5;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 25px;}
+
+.article1 img, .article2 img, .article3 img, .article4 img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 50px;}
+
+.video1 h3, .video1 p, .video2 h3, .video2 p, .video3 h3, .video3 p {
+    padding-left: 15px;
+}
+
