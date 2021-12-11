@@ -304,15 +304,17 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                             margin-bottom: 10px;
                                                                             display: block;}}
 @media only screen and (max-width: 600px) { .recipebox_mealtabs         {   margin-top: 60px;
-                                                                            margin-left: 2px;
-                                                                            margin-right: 2px;
+                                                                            margin-left: 15px;
+                                                                            margin-right: 15px;
                                                                             padding: 0px;
                                                                             flex-wrap: none;
                                                                             size: 50%;
                                                                             margin: 0px;}}
-@media only screen and (max0width: 600px) { .recipebox_mealtabs .tab    {   margin-left: 0px;
+@media only screen and (max-width: 600px) { .recipebox_mealtabs .tab    {   margin-left: 15px;
+                                                                            margin-right: 15px;
                                                                             width: 100%;}}
-@media only screen and (max-width: 600px) { .recipebox_mealtabs label   {   font-size: 125%;}}
+@media only screen and (max-width: 600px) { .recipebox_mealtabs label   {   font-size: 125%;
+                                                                            margin-left: 15px;}}
 @media only screen and (max-width: 600px) { .recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 
                                                                         {   flex-wrap: wrap; 
                                                                             margin-left: 5px; 
