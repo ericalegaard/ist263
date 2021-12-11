@@ -443,4 +443,5 @@ footer h2, footer h3 {color: #eff1f3;;}
 @media only screen and (max-width: 600px) { .video1, .video2, .video3   {   width: 300px;}}                                                                            
 @media only screen and (max-width: 600px) { .article1, .article2, .article3, .article4 
                                                                         {   display: block;
-                                                                            justify-content: center;}}
+                                                                            justify-content: center;
+                                                                            margin-top: 5px;}}
