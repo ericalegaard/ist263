@@ -108,7 +108,8 @@ footer {
     border-left: 2px solid #eff1f3;
     padding-left: 25px;
     flex: 1;}
-.footer_navigation2 p {color: #eff1f3;}
+.footer_navigation2 p, .footer_navigation2 a {color: #eff1f3;}
+.footer_navigation2 a {font-size: 50%;}
 footer h2, footer h3 {color: #eff1f3;;}
 
 
@@ -130,8 +131,8 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                         justify-content: space-evenly;}}
 @media only screen and (max-width: 600px) { footer                  {   display: flex;     
                                                                         flex-wrap: wrap;    
-                                                                        padding-left: 75px;    
-                                                                        padding-right: 75px;}}
+                                                                        padding-left: 35px;    
+                                                                        padding-right: 35px;}}
 @media only screen and (max-width: 600px) { .footer_titlecopyright  {   margin-right: 15px;}}
 @media only screen and (max-width: 600px) { .footer_contactus       {   padding: 15px;    
                                                                         border: 2px solid #eff1f3;}}
@@ -244,6 +245,7 @@ footer h2, footer h3 {color: #eff1f3;;}
     margin-bottom: 0px;}
 
 .recipebox_mealtabs {
+    clear: both;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -295,19 +297,36 @@ footer h2, footer h3 {color: #eff1f3;;}
     font-size: 150%;}
 
 
-@media only screen and (max-width: 600px) { .recipeboxheader            {   text-align: center;
+@media only screen and (max-width: 600px) { .recipeboxheader            {   float: none;
+                                                                            text-align: center;
                                                                             margin: 0px;
                                                                             margin-top: 10px;
-                                                                            margin-bottom: 10px;}}
+                                                                            margin-bottom: 10px;
+                                                                            display: block;}}
 @media only screen and (max-width: 600px) { .recipebox_mealtabs         {   margin-top: 60px;
                                                                             margin-left: 2px;
                                                                             margin-right: 2px;
                                                                             padding: 0px;
-                                                                            flex-wrap: none;}}
+                                                                            flex-wrap: none;
+                                                                            size: 50%;
+                                                                            margin: 0px;}}
+@media only screen and (max0width: 600px) { .recipebox_mealtabs .tab    {   margin-left: 0px;
+                                                                            width: 100%;}}
 @media only screen and (max-width: 600px) { .recipebox_mealtabs label   {   font-size: 125%;}}
-@media only screen and (max-width: 600px) { .recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 {flex-wrap: wrap; margin-right: 5px; margin-bottom: 0px;}}
-@media only screen and (max-width: 600px) { .recipebox_breakfast_row2, .recipebox_lunchdinner_row2 {margin-top: 0px;}}
-@media only screen and (max-width: 600px) { .breakfast_row1_2, .breakfast_row1_3, .breakfast_row1_4, .breakfast_row2_1, .breakfast_row2_2, .breakfast_row2_3, .lunchdinner_row1_1, .lunchdinner_row1_2, .lunchdinner_row1_3, .lunchdinner_row1_4, .lunchdinner_row2_1, .lunchdinner_row2_2, .lunchdinner_row2_3 {margin: 0px; margin-top: 5px;}}
+@media only screen and (max-width: 600px) { .recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 
+                                                                        {   flex-wrap: wrap; 
+                                                                            margin-left: 5px; 
+                                                                            margin-right: 5px; 
+                                                                            margin-bottom: 0px; 
+                                                                            padding-left: 0px; 
+                                                                            padding-right: 0px;}}
+@media only screen and (max-width: 600px) { .recipebox_breakfast_row2, .recipebox_lunchdinner_row2 
+                                                                        {   margin-top: 0px;}}
+@media only screen and (max-width: 600px) { .breakfast_row1_1, .breakfast_row1_2, .breakfast_row1_3, .breakfast_row1_4, .breakfast_row2_1, .breakfast_row2_2, .breakfast_row2_3, .lunchdinner_row1_1, .lunchdinner_row1_2, .lunchdinner_row1_3, .lunchdinner_row1_4, .lunchdinner_row2_1, .lunchdinner_row2_2, .lunchdinner_row2_3 
+                                                                        {   margin-left: -30px;
+                                                                            justify-content: center;
+                                                                            margin-top: 5px;
+                                                                            display: block;}}
 
 
 
