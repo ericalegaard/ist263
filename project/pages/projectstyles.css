@@ -500,7 +500,7 @@ footer h2, footer h3 {color: #eff1f3;;}
 @media only screen and (max-width: 600px) { .videos                     {   float: none;
                                                                             clear: both;
                                                                             margin: 0px;
-                                                                            margin-top: 1675px;
+                                                                            margin-top: 0px;
                                                                             margin-left: 15px;
                                                                             margin-right: 15px;
                                                                             width: 75%;}}
