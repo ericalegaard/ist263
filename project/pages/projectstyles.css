@@ -52,6 +52,15 @@ header .navbox {flex: 1;}
     justify-content: end;
     justify-content: space-between;}
 
+.TABLETnavbox {
+    color: #eff1f3;
+    display: flex;
+    border-radius: 15px;
+    padding: 15px;
+    justify-content: space-evenly;
+    font-size: 130%;}
+.TABLETnavbox a {color: #eff1f3;}
+
 .MOBILEnavbox {
     display: flex;
     border-radius: 25px;
@@ -114,7 +123,26 @@ footer h2, footer h3 {color: #eff1f3;;}
 
 
 
+/* TABLET - TABLET - TABLET - TABLET - TABLET - TABLET - TABLET */
+/* TABLET - TABLET - TABLET - TABLET - TABLET - TABLET - TABLET */
+
+@media only screen and (min-width: 800px) { .MOBILEnavbox           {   display: none;}}
+@media only screen and (min-width: 800px) { .TABLETnavbox           {   display: none;}}
+
+@media only screen and (max-width: 800px) { .navbox                 {   display: none;}}
+@media only screen and (max-width: 800px) { .MOBILEnavbox           {   display: none;}}
+
+
+@media only screen and (max-width: 800px) { h1                      {   flex: 1;}}
+@media only screen and (max-width: 800px) { .TABLETnavbox           {   flex: 1;}}
+
+
+
+/* MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE */
+/* MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE */
+
 @media only screen and (max-width: 600px) { .navbox                 {   display: none;}}
+@media only screen and (max-width: 600px) { .TABLETnavbox           {   display: none;}}
 @media only screen and (max-width: 600px) { .MOBILEnavbox           {   display: block;
                                                                         padding-top: 5px;  
                                                                         padding-bottom: 5px;   
@@ -138,19 +166,12 @@ footer h2, footer h3 {color: #eff1f3;;}
                                                                         border: 2px solid #eff1f3;}}
 
 
-@media only screen and (min-width: 600px) { .MOBILEnavbox           {   display: none;}}
 
-@media only screen and (max-width: 800px) { .nav_account            {   display: none;}}
-
-
-
+                                                                
 
 /* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
 /* HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING - HOME PAGE STYLING */
 
-/*.weeklytrioheader, .meetthefounderheader {
-    text-decoration: underline;
-    margin-bottom: 15px;}*/
 
 .weeklytrioheader {
     font-family: 'Grand Hotel', cursive;
@@ -200,8 +221,6 @@ footer h2, footer h3 {color: #eff1f3;;}
     margin-right: 75px;
     margin-bottom: 75px;}
 
-/*.meetthefounderheader {margin-top: 75px;}*/
-
 .meetthefoundersection {
     display: flex;
     border: 7px solid #588157;
@@ -224,6 +243,25 @@ footer h2, footer h3 {color: #eff1f3;;}
 .trio_breakfast, .trio_lunch, .trio_dinner {
     text-align: center;}
 
+
+/* TABLET - TABLET - TABLET - TABLET - TABLET - TABLET - TABLET */
+/* TABLET - TABLET - TABLET - TABLET - TABLET - TABLET - TABLET */
+
+@media only screen and (max-width: 800px) { .weeklytriosection, .meetthefoundersection  {   margin-left: 5px;
+                                                                                            margin-right: 5px;}}
+@media only screen and (max-width: 800px) { .trio_breakfast img, .trio_lunch img, .trio_dinner img, .meetthefoundersection img  
+                                                                                        {   width: 250px;}}
+@media only screen and (max-width: 800px) { .trio_breakfast, .trio_lunch, .trio_dinner  {   margin-left: 5px;
+                                                                                            margin-right: 5px;}}
+
+@media only screen and (max-width: 800px) { .trio_breakfast, .trio_lunch                {   margin-bottom: 5px;}}
+@media only screen and (max-width: 800px) { .trio_dinner                                {   margin-top: 5px;}}
+@media only screen and (max-width: 800px) { .meetthefounderheader                       {   margin-top: -700px;}}
+
+
+/* MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE */
+/* MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE */
+
 @media only screen and (max-width: 600px) { .weeklytriosection                          {   flex-wrap: wrap;
                                                                                             margin-left: 5px;
                                                                                             margin-right: 5px;}}
@@ -236,6 +274,7 @@ footer h2, footer h3 {color: #eff1f3;;}
 @media only screen and (max-width: 600px) { .meetthefoundersection img                  {   width: 100%;
                                                                                             margin-left: 0px;}}
 
+                                                                                    
 
 
 
@@ -303,39 +342,45 @@ footer h2, footer h3 {color: #eff1f3;;}
     font-size: 150%;}
 
 
-@media only screen and (max-width: 600px) { .recipeboxheader            {   float: none;
+/* MOBILE & TABLET - MOBILE & TABLET - MOBILE & TABLET - MOBILE & TABLET - MOBILE & TABLET */
+/* MOBILE & TABLET - MOBILE & TABLET - MOBILE & TABLET - MOBILE & TABLET - MOBILE & TABLET */
+
+@media only screen and (max-width: 800px) { .recipeboxheader            {   float: none;
                                                                             text-align: end;
                                                                             margin: 0px;
                                                                             margin-top: 10px;
                                                                             margin-bottom: 10px;
                                                                             margin-right: 15px;
                                                                             display: block;}}
-@media only screen and (max-width: 600px) { .recipebox_mealtabs         {   margin-top: 60px;
+@media only screen and (max-width: 800px) { .recipebox_mealtabs         {   margin-top: 60px;
                                                                             margin-left: 5px;
                                                                             margin-right: 5px;
                                                                             padding: 0px;
                                                                             flex-wrap: none;
-                                                                            size: 50%;
+                                                                            size: 100%;
                                                                             margin: 0px;}}
-@media only screen and (max-width: 600px) { .recipebox_mealtabs .tab    {   margin-left: 5px;
+@media only screen and (max-width: 800px) { .recipebox_mealtabs .tab    {   margin-left: 5px;
                                                                             margin-right: 5px;
                                                                             width: 100%;}}
-@media only screen and (max-width: 600px) { .recipebox_mealtabs label   {   font-size: 125%;
+@media only screen and (max-width: 800px) { .recipebox_mealtabs label   {   font-size: 200%;
                                                                             margin-left: 5px;}}
-@media only screen and (max-width: 600px) { .recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 
+@media only screen and (max-width: 600px) { .recipebox_mealtabs label   {   font-size: 150%;
+                                                                            margin-left: 5px;}}
+@media only screen and (max-width: 800px) { .recipebox_breakfast_row1, .recipebox_breakfast_row2, .recipebox_lunchdinner_row1, .recipebox_lunchdinner_row2 
                                                                         {   flex-wrap: wrap; 
                                                                             margin-left: 5px; 
                                                                             margin-right: 5px; 
                                                                             margin-bottom: 0px; 
                                                                             padding-left: 0px; 
                                                                             padding-right: 0px;}}
-@media only screen and (max-width: 600px) { .recipebox_breakfast_row2, .recipebox_lunchdinner_row2 
+@media only screen and (max-width: 800px) { .recipebox_breakfast_row2, .recipebox_lunchdinner_row2 
                                                                         {   margin-top: 0px;}}
-@media only screen and (max-width: 600px) { .breakfast_row1_1, .breakfast_row1_2, .breakfast_row1_3, .breakfast_row1_4, .breakfast_row2_1, .breakfast_row2_2, .breakfast_row2_3, .lunchdinner_row1_1, .lunchdinner_row1_2, .lunchdinner_row1_3, .lunchdinner_row1_4, .lunchdinner_row2_1, .lunchdinner_row2_2, .lunchdinner_row2_3 
-                                                                        {   margin-left: 0px;
-                                                                            margin-right: 0px;
+@media only screen and (max-width: 800px) { .breakfast_row1_1, .breakfast_row1_2, .breakfast_row1_3, .breakfast_row1_4, .breakfast_row2_1, .breakfast_row2_2, .breakfast_row2_3, .lunchdinner_row1_1, .lunchdinner_row1_2, .lunchdinner_row1_3, .lunchdinner_row1_4, .lunchdinner_row2_1, .lunchdinner_row2_2, .lunchdinner_row2_3 
+                                                                        {   margin-left: 5px;
+                                                                            margin-right: 5px;
                                                                             justify-content: center;
                                                                             margin-top: 5px;
+                                                                            margin-bottom: 5px;
                                                                             display: block;}}
 
 
@@ -412,6 +457,25 @@ footer h2, footer h3 {color: #eff1f3;;}
 .video1 h3, .video1 p, .video2 h3, .video2 p, .video3 h3, .video3 p {
     padding-left: 15px;}
 
+
+
+/* TABLET - TABLET - TABLET - TABLET - TABLET - TABLET - TABLET */
+/* TABLET - TABLET - TABLET - TABLET - TABLET - TABLET - TABLET */
+
+@media only screen and (max-width: 800px) { .articles                   {   float: none;
+                                                                            width: 90%;
+                                                                            margin-left: 15px;
+                                                                            margin-right: 0px;
+                                                                            justify-content: center;}}
+
+@media only screen and (max-width: 800px) { .videos                     {   float: none;
+                                                                            width: 60%;
+                                                                            margin-left: 125px;
+                                                                            margin-right: 5px;
+                                                                            margin-top: 65px;}}
+
+/* MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE */
+/* MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE - MOBILE */
 
 @media only screen and (max-width: 600px) { .tidbitsheader              {   float: none;
                                                                             text-align: end;
