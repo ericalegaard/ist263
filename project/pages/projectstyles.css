@@ -270,7 +270,7 @@ footer h2, footer h3 {color: #eff1f3;;}
 @media only screen and (max-width: 600px) { .meetthefoundersection                      {   flex-wrap: wrap;
                                                                                             margin-left: 5px;
                                                                                             margin-right: 5px;}}
-@media only screen and (max-width: 600px) { .meetthefounderheader                       {   margin-top: -1275px;}}
+@media only screen and (max-width: 600px) { .meetthefounderheader                       {   margin-top: -1325px;}}
 @media only screen and (max-width: 600px) { .meetthefoundersection img                  {   width: 100%;
                                                                                             margin-left: 0px;}}
 
@@ -432,8 +432,8 @@ footer h2, footer h3 {color: #eff1f3;;}
     margin-top: 100px;
     margin-right: 50px;
     margin-bottom: 25px;}
-.articles p {
-    margin: 0px;}
+.articles p {margin: 0px;}
+.articles a {color: #223843;}
 
 .article1, .article2, .article3, .article4 {
     height: 223px;
